@@ -7,7 +7,6 @@ import com.gmall.pojo.PmsBaseCatalog3;
 import com.gmall.service.CatalogService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -39,4 +38,5 @@ public class CatalogController {
         List<PmsBaseCatalog3> catalog3 = catalogService.getCatalog3(catalog2Id);
         return catalog3;
     }
+
 }
